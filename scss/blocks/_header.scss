@@ -1,0 +1,23 @@
+.site-header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    .container {
+        width: 1300px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header {
+        @include between();
+        ul {
+            display: flex;
+        }
+        li a {
+            @include textStyle();
+            padding: 20px;
+        }
+    }
+    
+}

@@ -1,0 +1,37 @@
+
+@mixin around(){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin between(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin textStyle (){
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+    color: #83888F;
+}
+@mixin storyStyle (){
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #FEFCF7;
+}
+@mixin h1_style (){
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #FEFCF7;
+}
